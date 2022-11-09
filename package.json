@@ -2,6 +2,9 @@
   "name": "nuxt-modules-checker",
   "private": true,
   "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
   "devDependencies": {
     "@nuxt/modules": "latest",
     "pacote": "^15.0.6",
