@@ -9,8 +9,8 @@ import { TwitterApi } from "twitter-api-v2";
 
 const client = new TwitterApi({
   appKey: process.env.TWITTER_APP_KEY,
-	appSecret: process.env.TWITTER_APP_TOKEN,
-	
+  appSecret: process.env.TWITTER_APP_TOKEN,
+
   accessToken: process.env.TWITTER_ACCESS_TOKEN,
   accessSecret: process.env.TWITTER_ACCESS_SECRET,
 });
@@ -26,7 +26,7 @@ async function main() {
     if (!cachedVersion) {
       console.log("New module!", npm);
       await client.v2.tweet(
-				`A new Nuxt module (${npm}) has been published!
+        `A new Nuxt module (${npm}) has been published!
 				${description}
 				${website}`
       );
