@@ -1,11 +1,11 @@
 {
   "type": "module",
-  "scripts": {
-    "test": "vitest"
-  },
   "devDependencies": {
-    "@nuxt/modules": "^0.5.0-a9065b",
-    "npm-check-updates": "^16.1.2",
-    "vitest": "^0.23.2"
+    "@nuxt/modules": "latest"
+  },
+  "dependencies": {
+    "pacote": "^15.0.6",
+    "semver": "^7.3.8",
+    "twitter-api-v2": "^1.12.9"
   }
 }
